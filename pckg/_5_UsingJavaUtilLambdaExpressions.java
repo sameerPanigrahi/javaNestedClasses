@@ -5,11 +5,11 @@ import java.util.function.Predicate;
 
 import pckg_commons.Person;
 
-//compare this Example5 with Example4
+//compare this _5_UsingJavaUtilLambdaExpressions with _4_LambdaExpression
 //no need to have a separate functional interface CheckPerson
 //make use of Predicate<T> function provided by java.util.functions
 
-public class Example5 {
+public class _5_UsingJavaUtilLambdaExpressions {
 
 	// interface CheckPerson {
 	// boolean test(Person p);

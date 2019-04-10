@@ -3,7 +3,7 @@ package pckg;
 import java.util.List;
 import pckg_commons.Person;
 
-public class Example3 {
+public class _3_AnonymousClassExpressions {
 
 	interface CheckPerson {
 		boolean test(Person p);
