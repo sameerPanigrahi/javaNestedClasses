@@ -1,7 +1,7 @@
 package pckg;
 
 //using inner class, print output of even indices of an array
-public class Example1 {
+public class _1_NestedClass {
 
 	// New!!! Hmmm can be declared in a class but not inside a method or inner class
 	//interfaces can only be defined in a top-level class, in an interface or in a static context
@@ -12,7 +12,7 @@ public class Example1 {
 	public int[] arrayOfInts = new int[15];
 
 	// constructor
-	public Example1() {
+	public _1_NestedClass() {
 		for (int i = 0; i < arrayOfInts.length; i++) {
 			arrayOfInts[i] = i;
 		}
@@ -50,7 +50,7 @@ public class Example1 {
 	}
 
 	public static void main(String args[]) {
-		Example1 ex1 = new Example1();
+		_1_NestedClass ex1 = new _1_NestedClass();
 		ex1.printEven();
 	}
 }

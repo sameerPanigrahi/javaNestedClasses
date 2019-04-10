@@ -1,6 +1,6 @@
 package pckg;
 
-public class Example2 {
+public class _2_LocalClass {
 
 	static String regularExpression = "[^0-9]";
 

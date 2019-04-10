@@ -4,10 +4,10 @@ import java.util.List;
 
 import pckg_commons.Person;
 
-//compare this Example4 with Example3
+//compare this _4_LambdaExpression with _3_AnonymousClassExpressions
 //we recognize CheckPerson is a functional interface so we make use of lambda expressions
 
-public class Example4 {
+public class _4_LambdaExpression {
 
 	interface CheckPerson {
 		boolean test(Person p);
